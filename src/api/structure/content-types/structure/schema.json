@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "structures",
+  "info": {
+    "singularName": "structure",
+    "pluralName": "structures",
+    "displayName": "Structure"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Ville": {
+      "type": "string"
+    }
+  }
+}

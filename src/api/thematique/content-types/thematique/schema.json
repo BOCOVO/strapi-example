@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "thematiques",
+  "info": {
+    "singularName": "thematique",
+    "pluralName": "thematiques",
+    "displayName": "Thematique"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    }
+  }
+}

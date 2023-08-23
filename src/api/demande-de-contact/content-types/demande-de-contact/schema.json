@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demande_de_contacts",
+  "info": {
+    "singularName": "demande-de-contact",
+    "pluralName": "demande-de-contacts",
+    "displayName": "Demande de contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Civilite": {
+      "type": "string"
+    },
+    "Nom": {
+      "type": "string"
+    },
+    "Recherche": {
+      "type": "enumeration",
+      "enum": [
+        "pour moi",
+        "pour mon enfant"
+      ]
+    }
+  }
+}
